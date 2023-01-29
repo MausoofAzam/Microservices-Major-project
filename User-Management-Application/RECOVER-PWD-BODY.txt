@@ -1,0 +1,11 @@
+Hii{FULLNAME},<br/>
+<br/>
+Please find your Password Below
+
+Please find your Recovery password below.
+
+Password:{PWD}
+
+Thanks,
+
+Admin Team.

@@ -1,0 +1,23 @@
+Benefit Issuance:
+----------------------
+
+-> Benefit Issuance module is responsible to send benefit amount to citizens who got approved for the plan.
+-> Benefit amount  will be sent to citizen on monthly basis.
+-> Sending benefit amount is batch Process with Monthly Schedule.
+
+------------------------
+BI Module Business Logic
+------------------------
+
+->BI Module should read all Approved Citizens and it should create one file(CSV) with citizens data
+  i.e Case Number, Name, SSN, BenefitAmt, Account Number, Bank Name
+  
+  Like This:
+	123345, John, 87787878, 350.00$, 55564564, HDFC
+	122345, smith, 87785578, 250.00$, 55564564, syndicate
+  		
+  
+-> BI module should keep the CSV file in FTP location (Remote Location)
+
+NOTE: Bank Application will load CSV file from FTP location and it will perform Transactions.
+
